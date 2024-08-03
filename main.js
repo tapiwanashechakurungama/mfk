@@ -16,7 +16,7 @@ function changeBackgroundImage() {
   currentIndex = (currentIndex + 1) % images.length;
 }
 
-setInterval(changeBackgroundImage, 5000); // Change image every 5 seconds
+setInterval(changeBackgroundImage, 10000); // Change image every 5 seconds
 
 // Initial call to set the first background image
 changeBackgroundImage();
